@@ -68,11 +68,7 @@ help = [
   "<br>",
 ];
 
-bruh = [
-  "<br>",
-  "bruh...",
-  "<br>",
-];
+
 
 banner = [
   '<span class="index">Welcome to BlobbyThe3rd&#39;s</span>',
