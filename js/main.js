@@ -129,6 +129,9 @@ function commander(cmd) {
     case "banner":
       loopLines(banner, "", 80);
       break;
+    case "bruh":
+      addline("bruh...", "color2", 0);
+      break;
     // socials
     case "youtube":
       addLine("Opening YouTube...", "color2", 80);
@@ -149,9 +152,6 @@ function commander(cmd) {
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
-      break;
-    case "bruh":
-      addline("bruh...", "color2", 0);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
