@@ -129,9 +129,6 @@ function commander(cmd) {
     case "banner":
       loopLines(banner, "", 80);
       break;
-    case "bruh":
-      addline("bruh...", "color2", 0);
-      break;
     // socials
     case "youtube":
       addLine("Opening YouTube...", "color2", 80);
