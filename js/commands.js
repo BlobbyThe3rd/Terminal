@@ -64,6 +64,7 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">bruh</span>           bruh',
   "<br>",
 ];
 
