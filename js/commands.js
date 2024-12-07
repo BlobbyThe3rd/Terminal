@@ -1,6 +1,6 @@
 var youtube = "https://www.youtube.com/fknight/";
 var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
+var password = "bruh";
 var linkedin = "https://www.linkedin.com/in/forrestpknight/";
 var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
@@ -70,8 +70,9 @@ help = [
 
 bruh = [
   "<br>",
-  "bruh..."
-  "<br>"
+  "bruh...",
+  "<br>",
+];
 
 banner = [
   '<span class="index">Welcome to BlobbyThe3rd&#39;s</span>',
