@@ -1,2 +1,2 @@
 To access, go to [tinyurl.com/teminalb3
-](url)
+](tinyurl.com/teminalb3)
