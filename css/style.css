@@ -4,8 +4,8 @@ body {
   min-height: 99%;
   width: 100%;
   min-width: 550px;
-  color: #27d629;
-  background: #000000;
+  color: #519975;
+  background: #211D1B;
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
@@ -14,8 +14,8 @@ body {
   background-color: #519975;
 }
 ::-moz-selection {
-  color: #000000;
-  background-color: #27d629;
+  color: #211830;
+  background-color: #519975;
 }
 textarea {
   left: -1000px;
@@ -61,7 +61,7 @@ b {
 }
 #liner::before {
   color: #519975;
-  content: "Guest@blobbythe3rd.com:~$";
+  content: "guest@blobbythe3rd.com:~$";
 }
 #liner.password::before {
   content: "Password:";
