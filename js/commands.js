@@ -47,7 +47,7 @@ secret = [
 
 bruh = [
   "<br>,
-  "bruh...",
+  'bruh...',
   "<br>"
 ];
 
