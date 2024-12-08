@@ -45,6 +45,12 @@ secret = [
   "<br>"
 ];
 
+bruh = [
+  "<br>,
+  "bruh...",
+  "<br>"
+];
+
 projects = [
   "<br>",
   "Still curating... most projects are offline, on GitHub, or confidential.",
