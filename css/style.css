@@ -4,8 +4,8 @@ body {
   min-height: 99%;
   width: 100%;
   min-width: 550px;
-  color: #519975;
-  background: #211D1B;
+  color: #27d629;
+  background: #000000;
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
@@ -14,8 +14,8 @@ body {
   background-color: #519975;
 }
 ::-moz-selection {
-  color: #211830;
-  background-color: #519975;
+  color: #000000;
+  background-color: #27d629;
 }
 textarea {
   left: -1000px;
