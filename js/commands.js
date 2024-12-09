@@ -6,7 +6,7 @@ var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
 var email = 'mailto:forrest@fkcodes.com';
 
-whois = [
+about = [
   "<br>",
   "Hey, I'm BlobbyThe3rd",
   "I'm a small YouTuber, Gamer, and computer scientist. ",
@@ -43,7 +43,7 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
+  '<span class="command">about</span>          Who is BlobbyThe3rd?',
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">video</span>          View YouTube videos',
   '<span class="command">social</span>         Display social networks',
