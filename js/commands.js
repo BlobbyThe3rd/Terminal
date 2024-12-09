@@ -25,25 +25,9 @@ whoami = [
   "<br>"
 ];
 
-social = [
-  "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
-  "<br>"
-];
-
 secret = [
   "<br>",
   '<span class="command">sudo</span>           Only use if you\'re admin',
-  "<br>"
-];
-
-projects = [
-  "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
   "<br>"
 ];
 
@@ -51,15 +35,12 @@ help = [
   "<br>",
   '<span class="command">about</span>          Who is BlobbyThe3rd?',
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
-  '<span class="command">social</span>         Display social networks',
   '<span class="command">secret</span>         Find the password',
-  '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">help_advanced</span>  Shows all the commands',
   "<br>",
 ];
 
