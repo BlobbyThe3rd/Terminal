@@ -13,6 +13,12 @@ about = [
   "<br>"
 ];
 
+bruh = [
+  "<br>",
+  "bruh...",
+  "<br>"
+];
+
 whoami = [
   "<br>",
   "The paradox of â€œWho am I?â€ is: we never know, but, we constantly find out.",
