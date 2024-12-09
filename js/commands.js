@@ -25,6 +25,21 @@ i-like-men = [
   "<br>"
 ];
 
+help2 = [
+  "<br>",
+  '<span class="command">about</span>          Who is BlobbyThe3rd?',
+  '<span class="command">whoami</span>         Who are you?',
+  '<span class="command">secret</span>         Find the password',
+  '<span class="command">history</span>        View command history',
+  '<span class="command">help</span>           You obviously already know what this does',
+  '<span class="command">clear</span>          Clear terminal',
+  '<span class="command">banner</span>         Display the header',
+  '<span class="command">help_advanced</span>  Shows all the commands',
+  '<span class="command">bruh</span>           bruh...',
+  '<span class="command">i like men</span>     GAYYYYYY',
+  "<br>",
+];
+
 whoami = [
   "<br>",
   "The paradox of â€œWho am I?â€ is: we never know, but, we constantly find out.",

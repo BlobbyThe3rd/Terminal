@@ -91,6 +91,9 @@ function commander(cmd) {
     case "i like men":
       loopLines(i-like-men, "color2 margin", 80);
       break;
+    case "help-advanced":
+      loopLines(help2, "color2 margin", 80);
+      break;
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
