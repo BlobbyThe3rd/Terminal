@@ -1,6 +1,6 @@
 var youtube = "https://www.youtube.com/fknight/";
 var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
+var password = "beanz123";
 var linkedin = "https://www.linkedin.com/in/forrestpknight/";
 var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
@@ -8,8 +8,8 @@ var email = 'mailto:forrest@fkcodes.com';
 
 about = [
   "<br>",
-  "Hey, I'm BlobbyThe3rd",
-  "I'm a small YouTuber, Gamer, and computer scientist. ",
+  "Hi, I'm BlobbyThe3rd",
+  "I'm a small YouTuber, Gamer, and self taught computer scientist. ",
   "<br>"
 ];
 
