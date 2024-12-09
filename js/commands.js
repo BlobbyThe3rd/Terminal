@@ -19,6 +19,12 @@ bruh = [
   "<br>"
 ];
 
+i-like-men = [
+  "<br>",
+  "i guess ur gay",
+  "<br>"
+];
+
 whoami = [
   "<br>",
   "The paradox of â€œWho am I?â€ is: we never know, but, we constantly find out.",
