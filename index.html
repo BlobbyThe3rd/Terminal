@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <html>
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -235,6 +237,12 @@ whoami = [
   "<br>"
 ];
 
+men = [
+  "<br>",
+  "ok i guess? don't know why ur telling me. talk to some men?",
+  "<br>"
+];
+
 secret = [
   "<br>",
   '<span class="command">sudo</span>           Only use if you\'re admin',
@@ -264,7 +272,10 @@ help2 = [
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
   '<span class="command">help_advanced</span>  Shows all the commands',
-  '<span class="command">bruh</span>           bruh',
+  '<span class="command">bruh</span>           Bruh',
+  '<span class="command">beanz</span>          Gives you some beanz',
+  '<span class="command">i like men</span>     A confession some like to make(not me)',
+  '<span class="command">kill</span>           Kills the page',
   "<br>",
 ];
 
@@ -378,10 +389,21 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
+    case "i like men":
+      loopLines(men, "color2 margin", 80);
+      break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
         window.open('https://media.tenor.com/SSY2V0RrU3IAAAAd/rick-roll-rick-rolled.gif');
+      }, 1000);
+    case "kill":
+      addLine("goodbye now...", "color2", 80);
+        window.close();
+    case "beanz":
+      addLine("cooking beanz...", "color2", 80);
+      setTimeout(function() {
+        window.open('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnkwaG00dXNrcjBnM292amE5Nzd6YXZmYXZmMnc3Z2E2Mm90N2U1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DhII10WPoz3rHm6qM8/giphy.webp');
       }, 1000); 
       break;
     case "secret":
