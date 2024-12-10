@@ -275,8 +275,8 @@ help2 = [
   '<span class="command">bruh</span>           Bruh',
   '<span class="command">beanz</span>          Gives you some beanz',
   '<span class="command">i like men</span>     A confession some like to make(not me)',
-  '<span class="command">kill</span>           Kills the page',
   '<span class="command">nuke</span>           Launches Nuke',
+  '<span class="command">ai</span>             Connects to AI',
   "<br>",
 ];
 
@@ -398,9 +398,11 @@ function commander(cmd) {
       setTimeout(function() {
         window.open('https://media.tenor.com/SSY2V0RrU3IAAAAd/rick-roll-rick-rolled.gif');
       }, 1000);
-      break;
-    case "kill":
-      window.close();
+    case "ai":
+      addLine("Connecting to AI", "color2", 80);
+      setTimeout(function() {
+        window.open('https://chatgpt.com/');
+      }, 1000);
       break;
     case "beanz":
       addLine("cooking beanz...", "color2", 80);
