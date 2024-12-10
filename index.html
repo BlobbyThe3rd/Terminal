@@ -276,6 +276,7 @@ help2 = [
   '<span class="command">beanz</span>          Gives you some beanz',
   '<span class="command">i like men</span>     A confession some like to make(not me)',
   '<span class="command">kill</span>           Kills the page',
+  '<span class="command">nuke</span>           Launches Nuke',
   "<br>",
 ];
 
@@ -399,11 +400,18 @@ function commander(cmd) {
       }, 1000);
     case "kill":
       addLine("goodbye now...", "color2", 80);
+      setTimeout(function() {
         window.close();
+      }, 1000);
     case "beanz":
       addLine("cooking beanz...", "color2", 80);
       setTimeout(function() {
         window.open('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnkwaG00dXNrcjBnM292amE5Nzd6YXZmYXZmMnc3Z2E2Mm90N2U1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DhII10WPoz3rHm6qM8/giphy.webp');
+      }, 1000);
+    case "nuke":
+      addLine("Connecting to Russian servers...", "color2", 80);
+      setTimeout(function() {
+        window.open('https://blobbythe3rd.github.io/Nuke/WeLaunchNukes.html');
       }, 1000); 
       break;
     case "secret":
