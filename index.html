@@ -9,6 +9,7 @@
     
       gtag('config', 'G-QJ9TR5T9S2');
     </script>
+    <!-- style.css -->
     <style>
       body {
   margin: 0;
@@ -143,7 +144,7 @@ a:focus {
 }
     </style>
     <title>B3 Terminal</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen">
     <link rel="icon" type="image/x-icon" href="https://cdn0.iconfinder.com/data/icons/cyber-crime-or-threats-blue-set/120/hacker_cyber_crime-256.png" />
   </head>
   <body>
@@ -165,6 +166,7 @@ a:focus {
       </div>
     </div>
     <script>
+      //caret.js
       function $(elid) {
     return document.getElementById(elid);
   }
@@ -205,6 +207,7 @@ function alert(txt) {
 }
     </script>
     <script>
+      //commands.js
       var youtube = "https://www.youtube.com/fknight/";
 var twitter = "https://www.twitter.com/forrestpknight/";
 var password = "beanz123";
@@ -251,6 +254,20 @@ help = [
   "<br>",
 ];
 
+help2 = [
+  "<br>",
+  '<span class="command">about</span>          Who is BlobbyThe3rd?',
+  '<span class="command">whoami</span>         Who are you?',
+  '<span class="command">secret</span>         Find the password',
+  '<span class="command">history</span>        View command history',
+  '<span class="command">help</span>           You obviously already know what this does',
+  '<span class="command">clear</span>          Clear terminal',
+  '<span class="command">banner</span>         Display the header',
+  '<span class="command">help_advanced</span>  Shows all the commands',
+  '<span class="command">bruh</span>           bruh',
+  "<br>",
+];
+
 banner = [
   '<span class="index">Welcome to BlobbyThe3rd&#39;s Custom</span>',
   "████████╗███████╗██████╗░███╗░░░███╗██╗███╗░░██╗░█████╗░██╗░░░░░",
@@ -264,6 +281,7 @@ banner = [
 ];
     </script>
     <script>
+      //main.js
       var before = document.getElementById("before");
 var liner = document.getElementById("liner");
 var command = document.getElementById("typer"); 
@@ -348,6 +366,9 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
+   case "help-advanced":
+      loopLines(help2, "color2 margin", 80);
+      break;
     case "about":
       loopLines(about, "color2 margin", 80);
       break;
@@ -360,7 +381,7 @@ function commander(cmd) {
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        window.open('https://media.tenor.com/SSY2V0RrU3IAAAAd/rick-roll-rick-rolled.gif');
       }, 1000); 
       break;
     case "secret":
