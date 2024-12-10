@@ -400,10 +400,9 @@ function commander(cmd) {
       }, 1000);
       break;
     case "kill":
-    addLine("goodbye now...", "color2", 80);
-      setTimeout(function() {
-        window.close();
-      }, 0);
+      addLine("goodbye now...", "color2", 80);
+      setTimeout(1000)
+      window.close();
       break;
     case "beanz":
       addLine("cooking beanz...", "color2", 80);
