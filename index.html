@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<html>
-
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script>
@@ -419,6 +417,11 @@
           setTimeout(function() {
             window.open('https://chatgpt.com/');
           }, 1000);
+        case "admin":
+          addLine("cool things happening...", "color2", 80);
+          setTimeout(function() {
+            window.open('https://chatgpt.com/');
+          }, 1000);
           break;
         case "beanz":
           addLine("cooking beanz...", "color2", 80);
@@ -437,13 +440,10 @@
           pw = true;
           break;
         case "secret2":
-          var v = prompt("Enter password");
-          (function()
-          {
-            if (v == 1) {
-              alert("hi")
-            };
-          });
+          var h = prompt("password");
+          if (h == 69420) {
+            confirm("type the cmd 'admin' to do cool things");
+          };
           break;
         case "password":
           addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
