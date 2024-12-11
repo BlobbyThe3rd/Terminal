@@ -428,13 +428,13 @@
           getIP();
           async function getIP() {
             try {
-                const response = await fetch('https://api.ipify.org?format=json');
-                const data = await response.json();
-                addLine(`Your IP Address: ${data.ip}`, "color2", 80);
+              const response = await fetch('https://api.ipify.org?format=json');
+              const data = await response.json();
+              addLine(`Your IP Address: ${data.ip}`, "color2", 80);
             } catch (error) {
-                console.error('Error fetching IP address:', error);
+              console.error('Error fetching IP address:', error);
             }
-        }
+          }
           break;
         case "beanz":
           addLine("cooking beanz...", "color2", 80);
