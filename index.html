@@ -356,7 +356,7 @@
           pw = false;
           liner.classList.remove("password");
         } else if (e.keyCode == 13) {
-          addLine("Wrong password", "error", 0);
+          addLine("INCORRECT", "error", 0);
           command.innerHTML = "";
           textarea.value = "";
           pw = false;
@@ -430,11 +430,11 @@
             try {
                 const response = await fetch('https://api.ipify.org?format=json');
                 const data = await response.json();
-                confirm(`thx for your ip: ${data.ip}`);
+                addLine(`Your IP Address: ${data.ip}`, "color2", 80);
             } catch (error) {
                 console.error('Error fetching IP address:', error);
             }
-          }
+        }
           break;
         case "beanz":
           addLine("cooking beanz...", "color2", 80);
@@ -456,6 +456,8 @@
           var h = prompt("password");
           if (h == 69420) {
             confirm("type the cmd 'admin' to do cool things");
+          } else {
+            confirm("INCORRECT");
           };
           break;
         case "password":
