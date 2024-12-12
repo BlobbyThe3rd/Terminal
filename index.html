@@ -271,6 +271,10 @@
       "<br>"
     ];
 
+    logo = [
+      '<img src="https://cdn0.iconfinder.com/data/icons/cyber-crime-or-threats-blue-set/120/hacker_cyber_crime-256.png">'
+    ];
+    
     sec = [
       "<br>",
       '<span class="command">admin</span>          cool stuff',
@@ -459,6 +463,9 @@
         case "secret":
           liner.classList.add("password");
           pw = true;
+          break;
+        case "logo":
+          loopLines(logo);
           break;
         case "secret2":
           var h = prompt("Please type the more secret password");
