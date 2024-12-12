@@ -270,6 +270,11 @@
       '<span class="command">admin</span>           does cool things',
       "<br>"
     ];
+
+    sec = [
+      '<span class="command">admin</span>          cool stuff',
+      "<br>",
+    ];
     help = [
       "<br>",
       '<span class="command">about</span>          Who is BlobbyThe3rd?',
@@ -455,7 +460,8 @@
         case "secret2":
           var h = prompt("Please type the more secret password");
           if (h == "iluvbeanz") {
-            confirm("type the cmd 'admin' to do cool things");
+            addLine("<br>");
+            loopLines(sec, "color2", 80)
           } else {
             confirm("INCORRECT");
           };
