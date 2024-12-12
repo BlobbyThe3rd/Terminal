@@ -272,6 +272,7 @@
     ];
 
     sec = [
+      "<br>",
       '<span class="command">admin</span>          cool stuff',
       "<br>",
     ];
@@ -460,7 +461,6 @@
         case "secret2":
           var h = prompt("Please type the more secret password");
           if (h == "iluvbeanz") {
-            addLine("<br>");
             loopLines(sec, "color2", 80)
           } else {
             confirm("INCORRECT");
